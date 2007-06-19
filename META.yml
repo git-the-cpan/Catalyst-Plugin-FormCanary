@@ -1,0 +1,20 @@
+abstract: check that forms are submitted from your site
+author: Jonathan Rockway, C<< <jrockway at cpan.org> >>
+build_requires: 
+  Catalyst::Plugin::Session::State::Cookie: 0
+  Catalyst::Plugin::Session::Store::Dummy: 0
+  Test::Exception: 0
+  Test::More: 0
+  ok: 0
+distribution_type: module
+generated_by: Module::Install version 0.64
+license: perl
+name: Catalyst-Plugin-FormCanary
+no_index: 
+  directory: 
+    - inc
+    - t
+requires: 
+  Catalyst: 0
+  Catalyst::Plugin::Session: 0
+version: 0.01
